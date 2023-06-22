@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "config:base",
+    ":prHourlyLimit2",
+    ":prConcurrentLimit10",
+    ":separateMultipleMajorReleases",
+    ":combinePatchMinorReleases",
+    "group:codemirror",
+    "group:definitelyTyped",
+    "group:react"
+  ],
+  "constraints": {
+    "node": "20.3.0"
+  }
+}
